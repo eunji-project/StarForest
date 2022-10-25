@@ -1,0 +1,129 @@
+*{margin: 0; padding: 0;}
+ul{list-style: none;}
+a{text-decoration: none; color: #000;}
+
+/*전체*/
+#roomtype{
+  background-color: #36495B;
+  padding: 100px;
+}
+
+/* 탭메뉴 꾸미기 */
+.tab{
+  width:1000px;
+  overflow: hidden;
+  margin: auto;
+}
+.tabnav{
+  overflow: hidden;
+  margin: auto;
+  display: block;
+  text-align: center;
+}
+.tabnav li:nth-child(1){ 
+  float: left;
+  display: block;
+  border-radius: 50% 50% 0 0;
+  background-color: #847A60;
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  width: 33.33%;
+  margin: 0 0 -66px 0;
+  padding: 50px 0;
+}
+.tabnav li:nth-child(2){ 
+  float: left;
+  display: block;
+  border-radius: 50% 50% 0 0;
+  background-color: #375345;
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  width: 33.33%;
+  margin: 0 0 -66px 0;
+  padding: 50px 0;
+}
+.tabnav li:nth-child(3){ 
+  float: left;
+  display: block;
+  border-radius: 50% 50% 0 0;
+  background-color: #7896B2;
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  width: 33.33%;
+  margin: 0 0 -56px 0;
+  padding: 50px 0;
+}
+
+/* 탭메뉴 클릭했을 때 변화 꾸미기 */
+.tabnav li .active{
+  
+}
+.tabnav li a:hover,
+.tabnav li a.active{
+  
+}
+
+/* 탭컨테츠 꾸미기 */
+.tabcontent #tab01{
+  height:800px; 
+  position: relative;
+  background-color: #847A60;
+}
+.tabcontent #tab02{
+  height:800px; 
+  position: relative;
+  background-color: #375345;
+}
+.tabcontent #tab03{
+  height:800px; 
+  position: relative;
+  background-color: #7896B2;
+}
+.tabcontent{
+  text-align: center;
+  color: #fff;
+}
+.tabcontent h1{
+  font-size: 25px;
+  font-weight: 100;
+  margin: 20px 0;
+}
+.tabcontent h2{
+  font-size: 35px;
+  font-weight: 100;
+  margin-bottom: 30px;
+}
+.tabcontent h3{
+  font-size: 20px;
+  font-weight: 100;
+  margin-bottom: 10px;
+}
+.tabcontent h4{
+  font-size: 18px;
+  font-weight: 100;
+}
+#tab01 span{
+  color: #6D4A2A;
+  font-weight: bold;
+}
+#tab03 span{
+  color: #0B0F17;
+}
+.tabnav li a{
+  color: #fff;
+  font-size: 40px;
+  display: block;
+  padding-bottom: 30px;
+}
+#tab02 h1{
+  position: relative;
+}
+#tab02 h1 img{
+  position: absolute;
+  left: 50%;
+  top: -12px;
+  transform: translateX(80%);
+}
